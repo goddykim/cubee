@@ -702,7 +702,7 @@ main .main .inner .swiper .swiper-slide a img {
 .new_album {
     width: 100%;
     padding: 4.16vw 0;
-    background-color: #bce6ff;
+    background-color: rgba(150, 150, 150, 0.6);
 }
 .new_album .inner {
     width: 75%;
@@ -740,6 +740,8 @@ main .main .inner .swiper .swiper-slide a img {
 .new_album .inner .album_w .album {
     width: 15.27%;
     height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .new_album .inner .album_w .album a {
     width: 100%;
