@@ -67,6 +67,7 @@ header .notice a {
 }
 .login .inner .lang {
     position: relative;
+    border: none;
 }
 .login .inner .lang > a {
     height: 40px;
@@ -506,10 +507,10 @@ main .main .inner .swiper .swiper-slide a img {
 }
 
 .celeb .inner nav ul li:nth-child(2)::before {
-    background-color: #8794c0;
+    background-color: #5a6794;
 }
 .celeb .inner nav ul li:nth-child(3)::before {
-    background-color: #ccabd8;
+    background-color: #8474a1;
 }
 .celeb .inner nav ul li:nth-child(4)::before {
     background-color: #f9e07f;
