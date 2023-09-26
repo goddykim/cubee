@@ -521,6 +521,15 @@ main .main .inner .swiper .swiper-slide a img {
 .celeb .inner nav ul li.on::before {
     display: block;
 }
+.celeb .inner .go {
+    color: #42b4e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    display: none;
+    margin-bottom: 10px;
+}
 
 .celeb .inner .celeb_w {
     width: 100%;
@@ -1539,7 +1548,7 @@ footer .inner .txt span {}
     .new_album {
         width: 100%;
         padding: 7.29vw 0;
-        background-color: #bce6ff;
+        background-color: rgb(51, 51, 51, 0.6);
     }
     .new_album .inner {
         width: 96.87%;
@@ -1936,7 +1945,31 @@ footer .inner .txt span {}
     .celeb .inner .celeb_w:last-child {
         justify-content: space-evenly;
     }
-    
+
+    .celeb .inner .go {
+        color: #42b4e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        display: none;
+        margin-bottom: 10px;
+    }
+    .celeb .inner .go.pentagon {
+        color: #1c2135;
+    }
+    .celeb .inner .go.gidle {
+        color: #7e00bf;
+    }
+    .celeb .inner .go.lightsum {
+        color: #feb500;
+    }
+    .celeb .inner .go.jo_kwon {
+        color: #321e25;
+    }
+    .celeb .inner .go.on {
+        display: flex;
+    }
     .celeb .inner .celeb_w .artist {
         width: 18.61%;
         height: 13.75vw;
@@ -2068,7 +2101,7 @@ footer .inner .txt span {}
     .new_album {
         width: 100%;
         padding: 9.66vw 0;
-        background-color: #bce6ff;
+        background-color: rgb(51, 51, 51, 0.6);
     }
     .new_album .inner {
         width: 92.75%;
