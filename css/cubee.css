@@ -1930,6 +1930,7 @@ footer .inner .txt span {}
     .celeb .inner nav ul li {
         font-size: 16px;
         padding: 0 30px;
+        margin-bottom: 10px;
     }
     .celeb .inner .celeb_w {
         width: 100%;
