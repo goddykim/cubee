@@ -312,7 +312,7 @@ main .main .inner {
     width: 75%;
     height: 28.12vw;
     position: absolute;
-    top: 2.08vw;
+    top: 0.52vw;
     left: 50%;
     transform: translateX(-50%);
 }
